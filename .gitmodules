@@ -2,3 +2,7 @@
 	path = themes/hugo-goa
 	url = https://github.com/shenoybr/hugo-goa
 	branch = master
+[submodule "public"]
+	path = public
+	url = git@github.com:marcopaganini/marcopaganini.github.io.git
+	branch = master
