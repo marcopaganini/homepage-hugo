@@ -40,9 +40,24 @@ html
     min-height: 100%;
     margin: 0;
 }
+pre {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+    font-family: 'Roboto Slab', 'Roboto', 'Lato', sans-serif;
+}
+
+h1,h2 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
 .author
 {
     color: #444;
+    margin-bottom: 0px;
 }
 .author h1,
 .author h2,
@@ -52,7 +67,7 @@ html
 .author h6,
 .author p
 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Slab', serif;
 }
 .category
 {
@@ -72,7 +87,7 @@ html
 }
 div.content
 {
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 300;
 
@@ -80,19 +95,19 @@ div.content
 }
 .copyright
 {
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 200;
 }
 .description
 {
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 200;
     color: #bbb;
 }
 .error
 {
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
     margin-top: 100px;
 }
@@ -140,17 +155,17 @@ div.content
 }
 .intro
 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: 200;
     color: #777;
 }
 h3.intro
 {
-    margin-top: 0px
+    margin-top: 0px;
 }
 .list
 {
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Roboto', sans-serif;
 
     margin-top: 50px;
 }
@@ -160,7 +175,7 @@ h3.intro
 }
 .list-entry
 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 25px;
     font-weight: 400;
 
@@ -193,7 +208,7 @@ h3.intro
 }
 .meta
 {
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 200;
 
@@ -205,7 +220,7 @@ a.meta
 }
 h6.meta
 {
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 200;
 
@@ -216,7 +231,7 @@ section.meta {
 }
 .powered
 {
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 300;
 }
@@ -231,7 +246,7 @@ section.meta {
 }
 .title
 {
-    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: 400;
 
     color: #555;
@@ -250,7 +265,7 @@ header.title
     }
     .list
     {
-        font-family: 'Merriweather', sans-serif;
+        font-family: 'Roboto', sans-serif;
 
         margin-top: 30px;
     }
