@@ -1,7 +1,7 @@
 # Base config
 
 languageCode = "en-us"
-baseURL = "http://paganini.net/"
+baseURL = "https://www.paganini.net/"
 
 author = "Marco Paganini"
 title = "paganini.net"
@@ -40,7 +40,7 @@ email = "paganini@paganini.net"
 
 ## Extras
 [params.extra]
-copyright = "© by Marco Paganini" 
+copyright = "© by Marco Paganini"
 poweredby = true
 hightlightjs = true
 
