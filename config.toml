@@ -34,9 +34,9 @@ linkedin = "paganini"
 twitter = "donpaganini"
 google = "+MarcoPaganini"
 email = "paganini@paganini.net"
-#stackoverflow = "<username>"
-#instagram = "<username>"
-#facebook = "<username>"
+keybase = "paganini"
+gitlab = "paganini"
+pgp = "key_437E0C7EE028A481FE4E2210AA323DF2B40CD0A9"
 
 ## Extras
 [params.extra]
