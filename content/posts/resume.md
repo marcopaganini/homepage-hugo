@@ -1,8 +1,9 @@
-+++
-date = "2017-03-11T19:27:39-08:00"
-draft = false
-title = "Marco Paganini - Resume"
-+++
+---
+date: "2017-03-11T19:27:39-08:00"
+draft: false
+title: Marco Paganini - Resume
+hiddenInHomeList: true
+---
 
 # Marco Paganini - Resume
 

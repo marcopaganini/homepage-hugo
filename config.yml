@@ -1,0 +1,87 @@
+# Base config
+#
+# For further info:
+# - https://github.com/adityatelange/hugo-PaperMod/wiki/Features#regular-mode-default-mode
+# - https://adityatelange.github.io/hugo-PaperMod/posts/papermod/papermod-variables/
+
+baseURL: "https://www.paganini.net/"
+title: "paganini.net"
+copyright: "© paganini.net"
+paginate: 5
+theme: "PaperMod"
+
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableRobotsTXT: true
+enableInlineShortcodes: true
+enableEmoji: true
+mainsections: ["posts"]
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: 📄 Resume
+          url: posts/resume
+          weight: 1
+        - name: 📷 Photos
+          url: posts/photos
+          weight: 1
+        - name: 🗃️ Archive
+          url: archives
+          weight: 5
+        - name: 🔍 Search
+          url: search/
+          weight: 10
+        - name: 🏷️ Tags
+          url: tags/
+          weight: 10
+
+params:
+  env: "production"
+  title: "Welcome to paganini.net"
+  description: "Homepage for Marco Paganini <paganini@paganini.net>"
+  author: "Marco Paganini"
+  keywords: ["google, deserts, mountain-biking, pictures, geek, resume"]
+  DateFormat: "January 2, 2006"
+
+  defaultTheme: auto
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+
+  # home-info mode
+  homeInfoParams:
+    title: "Welcome to paganini.net"
+    Content: >
+
+      This is my humble personal website. I use it to keep a copy of my
+      personal geeky notes which may be of use to others. You'll also find a
+      copy of my [Resume](/posts/resume) and some [photos](/posts/photos) of my
+      travels.  Feel free to [browse the notes](/archives) and contact me if
+      you find anything incorrect here.
+
+  # Social Accounts
+  socialIcons:
+    - name: github
+      url: "https://github.com/marcopaganini"
+    - name: gitlab
+      url: "https://gitlab.com/paganini"
+    - name: linkedin
+      url: "https://linkedin.com/in/paganini"
+    - name: telegram
+      url: "https://t.me/mpaganini"
+    - name: email
+      url: "mailto:paganini@paganini.net"

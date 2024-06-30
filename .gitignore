@@ -2,4 +2,5 @@
 */**/.DS_Store
 *.sw*
 public
+*.lock
 
