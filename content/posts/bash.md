@@ -138,7 +138,7 @@ unset arr[subscript] # remove one element from the array
 Source:
 * http://www.thegeekstuff.com/2011/08/bash-history-expansion
 
-## ISO date in bash
+## ISO dates in bash
 
 ```bash
 $ date '+%Y-%m-%d %H:%M:%S'
